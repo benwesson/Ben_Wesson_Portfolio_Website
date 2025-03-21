@@ -4,50 +4,138 @@
 
 
 .main_container {
+    transition: width 0.25 ease;
+    width: 80%;
+    margin: auto;
     background-color: aqua;
-    margin-left: 220px;
-    margin-right: 220px;
+    
 }
 
+@media (max-width: 1000px){
+    .main_container{
+      width: 100%;
+      transition: width 0.25s ease;
+    }
+  }
+
+
 .ben_image_div_container {
-    margin-top: 100px;
+    margin-top: 13rem;
     display: flex;
     flex-direction: row;
 }
 
-
-.ben_image_text {
+.ben_image_text_div {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     background-color: green;
-    margin-top: 60px;
-    padding: 10px;
-    margin-right: 300px;
-   
+    width: 20rem;
+    height: 20rem;  
 
 }
 
 .ben_name {
-    font-size: 6rem;
+    font-size: 4rem;
 }
 
 .ben_titles {
-
+    font-size: 1rem;
 }
 
 .ben_image_div {
-    background-image: url("testimage.jpg");
-    background-color: green;
-    margin-top: 60px;
-    padding: 10px;
-    height: 400px;
-    width: 400px;
-    
+    transition: width 0.25s ease, height 0.25s ease;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 20rem;
+    width: 20rem;
+    height: 20rem;
+    background-color: green;   
 }
+
 .ben_image {
-    width: auto;
-    height: 100%;
-    min-width: 75%;
-    min-height: 75%;
+    transition: width 0.25s ease, height 0.25s ease;
+    width: 20rem;
+    height: 20rem;  
+    border-radius: 50%;
 }
+
+
+
+  @media only screen and (max-width: 1000px) {
+
+
+    .ben_image_div_container{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+
+    .ben_image_div_container :nth-child(2) {
+        order: 1; 
+    }
+
+    .ben_image_div_container :nth-child(1) {
+        order: 2;
+    }
+
+    .ben_image_div  {
+        margin-bottom: 1rem;
+        margin-left: 0rem;
+    }
+
+    .ben_image_text_div  {
+        margin-top: 1rem;
+    }
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .ben_skills_container {
