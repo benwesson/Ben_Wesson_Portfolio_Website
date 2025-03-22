@@ -107,11 +107,12 @@
     flex-direction: row;
 }
 
-.ben_skills_tile {
-    
-    background-color: azure;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+.skill_logo {
+    width: 3rem;
+    height: 3rem;
 }
+
 
 /* Projects */
 .ben_projects_container {
