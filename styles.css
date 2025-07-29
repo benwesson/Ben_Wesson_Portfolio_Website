@@ -34,7 +34,7 @@ body {
 /* This is a single-line CSS comment */
 .header {
   grid-area: header;
-  /* background-color: #f8f9fa; */
+  background-color: white; 
   text-align: center;
   top: 0;
   position: sticky;
