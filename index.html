@@ -1,78 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="ben_style.css">
-</head>
-<body>
-  <script src="bootstrap.bundle.js"></script>
-  
-  <div class="main_container">
-    <nav class="navbar navbar-expand-md bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/index.html">LinkedIn</a>
-            </li>
-  
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/projects.html">Github</a>
-            </li>
-  
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/resume.html">Resume</a>
-            </li>
-  
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/contact.html">Contact</a>
-            </li>
-          
-          </ul>
-          
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ben Wesson Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="navbar">
+          <div class="name">
+            <div>BW</div>
+          </div>
+          <div>
+            <div class="menuButton" onclick="showMenu()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div class="menu">
+              <div class="menuItems">
+                <div><a href="/index.html">About</a></div>
+                <div><a href="/projects.html">Projects</a></div>
+                <div><a href="/contact.html">Contact</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="links">
+            <div><a href="/index.html">About</a></div>
+            <div><a href="/projects.html">Projects</a></div>
+            <div><a href="/contact.html">Contact</a></div>
+          </div>
         </div>
       </div>
-    </nav>
-    
-    
-    
 
-    <div class = "ben_image_div_container">
-
-      <div class = "ben_image_text_div">
-          <h1 class="ben_name">Ben Wesson</h1>
-          <p class="ben_titles">Data Science, Web Development</p>
+      <div class="main">
+        <div class="content">
+          <div class="imageDiv">
+            <img
+              class="profileImage"
+              src="test.jpg"
+              alt="cat"
+              height="300"
+              width="300"
+            /> 
+          </div>
+          <div class="textDiv">
+            <h1>Hi my name is Ben Wesson</h1>
+            <p>I build interactive web applications with these skills!</p>
+          </div>
+          <div class="skillDiv">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Next.js</div>
+            <div class="skill">Mongo DB</div>
+            <div class="skill">Supabase</div>
+            <div class="skill">Prisma</div>
+            <div class="skill">Git</div>
+          </div>
+          <div class="projectButton">
+            <a href="/projects.html"> See Projects</a>
+          </div>
+        </div>
       </div>
-
-      <div class = "ben_image_div">
-          <img src="/testimage.jpg" class = "ben_image">
+      <div class="footer">
+        <div class="footerDiv">
+            <div>LinkedIn</div>
+            <div>Github</div>
+            <div>Resume</div>
+        </div>
+       
       </div>
-
     </div>
-
-  </div>
-
-    
-    
-    
-
-
-
-    
-
-    
-  
-
-  
-
-    
-  
-</body>
+  </body>
 </html>
+    
+    
+    
+
+
+
+    
+
+    
+  
+
+  
+    
