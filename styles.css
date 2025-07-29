@@ -19,7 +19,7 @@ body {
   max-width: 1536px; 
   margin-left: auto;
   margin-right: auto;
-   padding-left: 170px;
+  padding-left: 170px;
   padding-right: 170px; 
   display: grid;
   grid-template-columns: 1fr;
@@ -80,6 +80,11 @@ body {
 .links {
   display: none;
   gap: 15px;
+}
+
+.name {
+  font-size: 1rem;
+  
 }
 /* This is a single-line CSS comment */
 .menu {
