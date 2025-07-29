@@ -1,4 +1,4 @@
-/* This is a single-line CSS comment */
+/* All */
 *{
   margin: 0;
   padding: 0;
@@ -31,7 +31,7 @@ body {
     "footer";
 }
 
-/* This is a single-line CSS comment */
+/* Header */
 .header {
   grid-area: header;
   background-color: white; 
@@ -41,6 +41,7 @@ body {
   
 
 } 
+
 
 .bar1, .bar2, .bar3 {
   width: 35px;
@@ -86,7 +87,7 @@ body {
   font-size: 1rem;
   
 }
-/* This is a single-line CSS comment */
+/* Sidebar for mobile drop down */
 .menu {
   padding: 10px 0;
   display: flex;
@@ -113,7 +114,7 @@ body {
 }
 
 
-/* This is a single-line CSS comment */
+/* Main content */
 .main {
   grid-area: main;
   background-color: #ffffff;
@@ -126,6 +127,7 @@ body {
   
 }
 
+/* Main content for home page */
 .textDiv {
   margin-top: 40px;
 }
@@ -159,9 +161,20 @@ body {
 .profileImage {
   margin-top: 100px;
   border-radius:50%;
+  
 }
 
-/* This is a single-line CSS comment */
+/* Main content for project page */
+.project {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  border: solid;
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+}
+
+/* Footer */
 .footer {
   grid-area: footer;
   /* background-color: #f8f9fa; */
