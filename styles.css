@@ -74,8 +74,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-  
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .links {
@@ -203,6 +204,11 @@ body {
   margin-bottom: 5px;
 }
 
+.projectDescription {
+  margin-bottom: 40px;
+  
+}
+
 .seeGithub {
   margin-top: 10px;
   color: white;
@@ -218,6 +224,7 @@ body {
 
 /* Slideshow container */
 .slideshow-container {
+	
   max-width: 100%;
   position: relative;
   margin: auto;
