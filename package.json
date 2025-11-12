@@ -1,5 +1,5 @@
 {
-"homepage": "benwesson.me",
+"homepage": "https://benwesson.me",
   "name": "ben-react-portfolio-site",
   "version": "0.1.0",
   "private": true,
@@ -46,6 +46,6 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
-  },
+  }
   
 }
