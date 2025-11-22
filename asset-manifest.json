@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.e8de9c25.css",
-    "main.js": "/static/js/main.3204fc09.js",
+    "main.css": "/static/css/main.4b3f7ffe.css",
+    "main.js": "/static/js/main.068298c9.js",
     "static/js/453.d18de9e6.chunk.js": "/static/js/453.d18de9e6.chunk.js",
     "static/media/testImage.jpg": "/static/media/testImage.3d86f919e8fd2ec6ead9.jpg",
+    "static/media/StockDashboardHome.jpg": "/static/media/StockDashboardHome.dd58fb257bdd69c3e696.jpg",
+    "static/media/StockDashboardSell.jpg": "/static/media/StockDashboardSell.2fafed461302dc33ce6c.jpg",
+    "static/media/StockDashboardBuy.jpg": "/static/media/StockDashboardBuy.c6c9608b4111d407c532.jpg",
+    "static/media/StockDashboardFunds.jpg": "/static/media/StockDashboardFunds.bd1bba387fd1e0df506c.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.e8de9c25.css.map": "/static/css/main.e8de9c25.css.map",
-    "main.3204fc09.js.map": "/static/js/main.3204fc09.js.map",
+    "main.4b3f7ffe.css.map": "/static/css/main.4b3f7ffe.css.map",
+    "main.068298c9.js.map": "/static/js/main.068298c9.js.map",
     "453.d18de9e6.chunk.js.map": "/static/js/453.d18de9e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8de9c25.css",
-    "static/js/main.3204fc09.js"
+    "static/css/main.4b3f7ffe.css",
+    "static/js/main.068298c9.js"
   ]
 }
