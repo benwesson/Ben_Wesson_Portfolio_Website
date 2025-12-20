@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.27959711.css",
-    "main.js": "/static/js/main.62022114.js",
+    "main.css": "/static/css/main.c7b2e003.css",
+    "main.js": "/static/js/main.7f3efe52.js",
     "static/js/453.d18de9e6.chunk.js": "/static/js/453.d18de9e6.chunk.js",
     "static/media/BenWessonPortfolioHeadShot.jpg": "/static/media/BenWessonPortfolioHeadShot.b21050d6c0597e2015c2.jpg",
     "static/media/StockDashboardHome.jpg": "/static/media/StockDashboardHome.dd58fb257bdd69c3e696.jpg",
@@ -10,12 +10,12 @@
     "static/media/StockDashboardFunds.jpg": "/static/media/StockDashboardFunds.bd1bba387fd1e0df506c.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.27959711.css.map": "/static/css/main.27959711.css.map",
-    "main.62022114.js.map": "/static/js/main.62022114.js.map",
+    "main.c7b2e003.css.map": "/static/css/main.c7b2e003.css.map",
+    "main.7f3efe52.js.map": "/static/js/main.7f3efe52.js.map",
     "453.d18de9e6.chunk.js.map": "/static/js/453.d18de9e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27959711.css",
-    "static/js/main.62022114.js"
+    "static/css/main.c7b2e003.css",
+    "static/js/main.7f3efe52.js"
   ]
 }
